@@ -1,0 +1,7 @@
+<!-- <?xml version='1.0' encoding='utf-8'?> -->
+<odoo>
+    <data>
+        <menuitem id="test_menu" name="Test"/>
+        <menuitem id="test_records_menu" parent="test_menu" name="Test" action="action_test" sequence="5" />
+    </data>
+</odoo>

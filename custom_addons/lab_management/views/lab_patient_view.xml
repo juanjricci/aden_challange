@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data>
+        <menuitem id="menu_root_lab" name="Laboratory" sequence="40"
+        groups="group_lab_management_user,group_lab_management_technician"/>
+        <record model="ir.ui.view" id="kanban_view_patient">
+            <field name="name">Patient Kanban</field>
+            <field name="model">lab.patient</field>
+            <field name="arch" type="xml">
+                <kanban>
+                    <field name='id'/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div class="oe_kabnan_details">
+                                <strong>
+                                    <ul>
+                                        <li>Name:
+                                            <field name="patient"/>
+                                        </li>
+                                        <li>Patient ID:
+                                            <field name="name"/>
+                                        </li>
+                                    </ul>
+                                </strong>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+    </data>    
+</odoo>
