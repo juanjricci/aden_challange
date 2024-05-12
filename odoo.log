@@ -4844,3 +4844,134 @@ estate_module.access_estate_property,access_estate_property,estate_module.model_
 2024-05-10 21:49:17,878 18072 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
 2024-05-10 21:49:18,339 18072 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 8 connections  
 2024-05-10 21:49:18,481 18072 INFO odoo_db werkzeug: 127.0.0.1 - - [10/May/2024 21:49:18] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 10.558
+2024-05-12 14:51:11,498 12652 INFO ? odoo: Odoo version 15.0-20240509 
+2024-05-12 14:51:11,498 12652 INFO ? odoo: Using configuration file at C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo.conf 
+2024-05-12 14:51:11,498 12652 INFO ? odoo: addons paths: ['C:\\Users\\juanj\\Documents\\Juan\\Aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\custom_addons'] 
+2024-05-12 14:51:11,498 12652 INFO ? odoo: database: admin@localhost:5432 
+2024-05-12 14:51:13,946 12652 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\juanj\Documents\Juan\Aden\odoo15\thirdparty\wkhtmltopdf.exe 
+2024-05-12 14:51:14,646 12652 INFO ? odoo.service.server: HTTP service (werkzeug) running on jr_zenbook:8069 
+2024-05-12 14:51:26,629 12652 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-12 14:51:26,630 12652 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-12 14:51:26,835 12652 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-05-12 14:51:59,564 12428 INFO ? odoo: Odoo version 15.0-20240509 
+2024-05-12 14:51:59,564 12428 INFO ? odoo: Using configuration file at C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo.conf 
+2024-05-12 14:51:59,564 12428 INFO ? odoo: addons paths: ['C:\\Users\\juanj\\Documents\\Juan\\Aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\custom_addons'] 
+2024-05-12 14:51:59,564 12428 INFO ? odoo: database: admin@localhost:5432 
+2024-05-12 14:51:59,843 12428 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\juanj\Documents\Juan\Aden\odoo15\thirdparty\wkhtmltopdf.exe 
+2024-05-12 14:52:00,287 12428 INFO ? odoo.service.server: HTTP service (werkzeug) running on jr_zenbook:8069 
+2024-05-12 14:52:15,214 12428 INFO ? odoo.http: HTTP Configuring static files 
+2024-05-12 14:52:15,329 12428 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2024-05-12 14:52:15,337 12428 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-05-12 14:52:15,350 12428 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 14:52:15,399 12428 INFO odoo_db odoo.modules.loading: loading 43 modules... 
+2024-05-12 14:52:15,416 12428 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 14:52:16,815 12428 INFO odoo_db odoo.modules.loading: 43 modules loaded in 1.42s, 0 queries (+0 extra) 
+2024-05-12 14:52:17,060 12428 INFO odoo_db odoo.modules.loading: Modules loaded. 
+2024-05-12 14:52:17,066 12428 INFO odoo_db odoo.modules.registry: Registry loaded in 1.832s 
+2024-05-12 14:52:17,070 12428 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-05-12 14:52:17,291 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:52:17] "GET / HTTP/1.1" 303 - 18 0.119 1.939
+2024-05-12 14:52:33,497 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:52:33] "GET /web HTTP/1.1" 200 - 324 0.228 15.974
+2024-05-12 14:52:33,855 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:52:33] "GET /web/webclient/load_menus/dfad4e779bcf96ec32af83bad34954002d22e45e7dac3c22412dcef93e1821b2 HTTP/1.1" 200 - 1 0.000 0.000
+2024-05-12 14:52:34,330 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:52:34] "POST /mail/init_messaging HTTP/1.1" 200 - 67 0.112 0.056
+2024-05-12 14:52:34,691 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:52:34] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 4 0.016 0.131
+2024-05-12 14:52:34,886 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:52:34] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.006 0.228
+2024-05-12 14:52:34,898 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:52:34] "POST /web/action/load HTTP/1.1" 200 - 8 0.141 0.193
+2024-05-12 14:52:34,900 12428 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-05-12 14:52:34,947 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:52:34] "POST /longpolling/im_status HTTP/1.1" 200 - 12 0.057 0.325
+2024-05-12 14:52:34,947 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:52:34] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 11 0.069 0.221
+2024-05-12 14:52:35,245 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:52:35] "POST /mail/inbox/messages HTTP/1.1" 200 - 9 0.027 0.003
+2024-05-12 14:52:35,304 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:52:35] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 7 0.013 0.014
+2024-05-12 14:52:36,375 12428 INFO ? werkzeug: 127.0.0.1 - - [12/May/2024 14:52:36] "GET /web_tour/static/src/xml/tip.xml?debug=1715525556040 HTTP/1.1" 200 - - - -
+2024-05-12 14:53:00,367 12428 INFO odoo_db odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2024-05-12 14:53:00,445 12428 INFO odoo_db odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2024-05-12 14:53:00,517 12428 INFO odoo_db odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2024-05-12 14:53:00,562 12428 INFO odoo_db odoo.models.unlink: User #1 deleted base.module.update records with IDs: [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31] 
+2024-05-12 14:53:00,593 12428 INFO odoo_db odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2024-05-12 14:53:00,860 12428 INFO odoo_db odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2024-05-12 14:53:00,872 12428 INFO odoo_db odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
+2024-05-12 14:53:00,878 12428 INFO odoo_db odoo.addons.base.models.ir_cron: Job `Notification: Delete Notifications older than 6 Month` done. 
+2024-05-12 14:53:00,886 12428 INFO odoo_db odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
+2024-05-12 14:53:00,900 12428 INFO odoo_db odoo.addons.base.models.ir_cron: Job `Users: Notify About Unregistered Users` done. 
+2024-05-12 14:53:00,910 12428 INFO odoo_db odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2024-05-12 14:53:01,261 12428 INFO odoo_db odoo.addons.base.models.ir_cron: Job `Digest Emails` done. 
+2024-05-12 14:53:01,268 12428 INFO odoo_db odoo.addons.base.models.ir_cron: Starting job `Account; Post draft entries with auto_post set to True up to today`. 
+2024-05-12 14:53:01,280 12428 INFO odoo_db odoo.addons.base.models.ir_cron: Job `Account; Post draft entries with auto_post set to True up to today` done. 
+2024-05-12 14:53:01,296 12428 INFO odoo_db odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-12 14:53:01,405 12428 INFO odoo_db odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-12 14:53:01,405 12428 INFO odoo_db odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-12 14:53:01,426 12428 INFO odoo_db odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-12 14:53:01,437 12428 INFO odoo_db odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-12 14:53:01,444 12428 INFO odoo_db odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-12 14:53:01,453 12428 INFO odoo_db odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-12 14:53:01,453 12428 INFO odoo_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-12 14:53:01,469 12428 INFO odoo_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-12 14:53:02,730 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:53:02] "POST /web/action/load HTTP/1.1" 200 - 28 0.036 0.020
+2024-05-12 14:53:03,159 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:53:03] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 57 0.083 0.038
+2024-05-12 14:53:03,544 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:53:03] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.029 0.026
+2024-05-12 14:53:03,877 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:53:03] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.013
+2024-05-12 14:53:04,305 12428 INFO ? werkzeug: 127.0.0.1 - - [12/May/2024 14:53:04] "GET /base/static/description/icon.png HTTP/1.1" 304 - - - -
+2024-05-12 14:53:05,383 12428 INFO odoo_db odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-12 14:53:24,913 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:53:24] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.063 50.287
+2024-05-12 14:53:25,375 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:53:25] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.006 0.009
+2024-05-12 14:54:15,255 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:54:15] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.023
+2024-05-12 14:54:16,365 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:54:16] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2024-05-12 14:55:05,281 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:55:05] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.013
+2024-05-12 14:55:07,056 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:55:07] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.001
+2024-05-12 14:55:55,624 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:55:55] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.026
+2024-05-12 14:55:58,062 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:55:58] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.009
+2024-05-12 14:56:26,048 12428 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-12 14:56:26,048 12428 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-12 14:56:26,125 12428 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 8 connections  
+2024-05-12 14:56:26,172 12428 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:56:26] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.018 30.221
+2024-05-12 14:56:29,624 3952 INFO ? odoo: Odoo version 15.0-20240509 
+2024-05-12 14:56:29,627 3952 INFO ? odoo: Using configuration file at C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo.conf 
+2024-05-12 14:56:29,627 3952 INFO ? odoo: addons paths: ['C:\\Users\\juanj\\Documents\\Juan\\Aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\custom_addons'] 
+2024-05-12 14:56:29,627 3952 INFO ? odoo: database: admin@localhost:5432 
+2024-05-12 14:56:29,907 3952 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\juanj\Documents\Juan\Aden\odoo15\thirdparty\wkhtmltopdf.exe 
+2024-05-12 14:56:30,352 3952 INFO ? odoo.service.server: HTTP service (werkzeug) running on jr_zenbook:8069 
+2024-05-12 14:56:34,074 3952 INFO ? odoo.http: HTTP Configuring static files 
+2024-05-12 14:56:34,148 3952 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2024-05-12 14:56:34,148 3952 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2024-05-12 14:56:34,164 3952 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 14:56:34,195 3952 INFO odoo_db odoo.modules.loading: loading 43 modules... 
+2024-05-12 14:56:34,212 3952 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 14:56:35,203 3952 INFO odoo_db odoo.modules.loading: 43 modules loaded in 1.01s, 0 queries (+0 extra) 
+2024-05-12 14:56:35,407 3952 INFO odoo_db odoo.modules.loading: Modules loaded. 
+2024-05-12 14:56:35,414 3952 INFO odoo_db odoo.modules.registry: Registry loaded in 1.327s 
+2024-05-12 14:56:35,414 3952 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-05-12 14:56:35,787 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:56:35] "POST /web/action/load HTTP/1.1" 200 - 33 0.106 1.597
+2024-05-12 14:56:35,820 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:56:35] "POST /web/dataset/call_kw/base.module.update/load_views HTTP/1.1" 200 - 11 0.012 0.009
+2024-05-12 14:56:36,154 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:56:36] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 3 0.003 0.011
+2024-05-12 14:56:37,003 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:56:37] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 6 0.005 0.022
+2024-05-12 14:56:37,328 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:56:37] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 3 0.001 0.007
+2024-05-12 14:56:37,576 3952 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin@admin.com #2 via 127.0.0.1 
+2024-05-12 14:56:39,035 3952 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 14:56:39,193 3952 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 14:56:39,381 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:56:39] "POST /web/dataset/call_button HTTP/1.1" 200 - 1101 0.510 1.299
+2024-05-12 14:56:41,969 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:56:41] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.020 0.022
+2024-05-12 14:56:42,249 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:56:42] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.004 0.004
+2024-05-12 14:56:47,023 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:56:47] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.041 0.023
+2024-05-12 14:56:47,233 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:56:47] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.005 0.001
+2024-05-12 14:56:47,338 3952 INFO ? werkzeug: 127.0.0.1 - - [12/May/2024 14:56:47] "GET /website_form_project/static/description/icon.png HTTP/1.1" 304 - - - -
+2024-05-12 14:56:47,608 3952 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-05-12 14:56:48,101 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:56:48] "POST /longpolling/im_status HTTP/1.1" 200 - 16 0.012 0.019
+2024-05-12 14:56:50,288 3952 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 14:56:50,382 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:56:50] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 9 0.007 0.104
+2024-05-12 14:56:50,703 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:56:50] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 - 4 0.005 0.004
+2024-05-12 14:56:51,060 3952 INFO ? werkzeug: 127.0.0.1 - - [12/May/2024 14:56:51] "GET /base/static/src/css/description.css HTTP/1.1" 304 - - - -
+2024-05-12 14:56:51,077 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:56:51] "GET /web/image?model=ir.module.module&id=521&field=icon_image&unique=05122024115637 HTTP/1.1" 200 - 3 0.005 0.005
+2024-05-12 14:56:51,080 3952 INFO ? werkzeug: 127.0.0.1 - - [12/May/2024 14:56:51] "GET /web/static/img/form_sheetbg.png HTTP/1.1" 304 - - - -
+2024-05-12 14:56:57,280 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:56:57] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.016 0.020
+2024-05-12 14:56:57,601 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:56:57] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.005
+2024-05-12 14:56:59,049 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:56:59] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.018 0.057
+2024-05-12 14:56:59,067 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:56:59] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.024 0.073
+2024-05-12 14:57:00,590 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:57:00] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.000 0.016
+2024-05-12 14:57:00,629 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:57:00] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.036 0.019
+2024-05-12 14:57:37,626 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:57:37] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.014 50.038
+2024-05-12 14:57:39,073 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:57:39] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.013
+2024-05-12 14:58:27,972 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:58:27] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.025
+2024-05-12 14:58:30,060 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:58:30] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.012
+2024-05-12 14:58:30,453 3952 INFO odoo_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-12 14:58:30,470 3952 INFO odoo_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-12 14:59:18,308 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:59:18] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.021
+2024-05-12 14:59:21,067 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:59:21] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.014

@@ -50,5 +50,8 @@ package.json
 /share/
 /src/
 
+# odoo log file
+/odoo.log
+
 # existing addons
 /odoo/addons/
