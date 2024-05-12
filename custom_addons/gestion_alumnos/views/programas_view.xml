@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data>
+        <!-- defino una forma para el view_mode tree del modelo programa -->
+        <record id="gestion_alumnos_programa_view_tree" model="ir.ui.view">
+            <field name="name">Programas</field>
+            <field name="model">gestion.alumnos.programa</field>
+            <field name="arch" type="xml">
+                <tree string="">
+                    <field name="nombre" />
+                </tree>
+            </field>
+        </record>
+        <!-- defino la accion para el modelo programa -->
+        <record id="gestion_alumnos_programa_action" model="ir.actions.act_window">
+            <field name="name">Programas</field>
+            <field name="res_model">gestion.alumnos.programa</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    No hay programas
+                </p>
+            </field>
+        </record>
+        <!-- defino el submenu para el modelo programa -->
+        <menuitem
+            id="gestion_alumnos_programa_submenu"
+            name="Gestion Programas"
+            action="gestion_alumnos_programa_action"
+            parent="gestion_alumnos_alumno_menu" />
+
+    </data>
+    
+</odoo>

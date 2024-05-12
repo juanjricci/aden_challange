@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data>
+
+        <!-- defino una forma para el view_mode tree del modelo inscripcion -->
+        <record id="gestion_alumnos_inscripcion_view_tree" model="ir.ui.view">
+            <field name="name">Inscripciones</field>
+            <field name="model">gestion.alumnos.inscripcion</field>
+            <field name="arch" type="xml">
+                <tree string="">
+                    <field name="alumno_id" />
+                    <field name="programa_id" />
+                </tree>
+            </field>
+        </record>
+        <!-- defino la accion para el modelo inscripcion -->
+        <record id="gestion_alumnos_inscripcion_action" model="ir.actions.act_window">
+            <field name="name">Inscripciones</field>
+            <field name="res_model">gestion.alumnos.inscripcion</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    No hay inscripciones
+                </p>
+            </field>
+        </record>
+        <!-- defino el submenu para el modelo inscripcion -->
+        <menuitem
+            id="gestion_alumnos_inscripcion_submenu"
+            name="Gestion inscripciones"
+            action="gestion_alumnos_inscripcion_action"
+            parent="gestion_alumnos_alumno_menu" />
+    </data>
+    
+</odoo>

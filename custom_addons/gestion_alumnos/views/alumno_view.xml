@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data>
+        <!-- defino una forma para el view_mode tree del modelo alumno -->
+        <record id="gestion_alumnos_alumno_view_tree" model="ir.ui.view">
+            <field name="name">Alumnos</field>
+            <field name="model">gestion.alumnos.alumno</field>
+            <field name="arch" type="xml">
+                <tree string="">
+                    <field name="nombre" />
+                    <field name="apellido" />
+                </tree>
+            </field>
+        </record>
+        <!-- defino la accion para el modelo alumno -->
+        <record id="gestion_alumnos_alumno_action" model="ir.actions.act_window">
+            <field name="name">Gestion Alumnos</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">gestion.alumnos.alumno</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    No hay alumnos
+                </p>
+            </field>
+        </record>
+        <!-- defino el menu para el modelo alumno -->
+        <menuitem
+            id="gestion_alumnos_alumno_menu"
+            name="Gestion Alumnos"
+            action="gestion_alumnos_alumno_action"   />
+
+    </data>
+    
+</odoo>
