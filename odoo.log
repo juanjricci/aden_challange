@@ -4975,3 +4975,1263 @@ estate_module.access_estate_property,access_estate_property,estate_module.model_
 2024-05-12 14:58:30,470 3952 INFO odoo_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
 2024-05-12 14:59:18,308 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:59:18] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.021
 2024-05-12 14:59:21,067 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 14:59:21] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.014
+2024-05-12 15:00:08,675 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:00:08] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.021 50.024
+2024-05-12 15:00:12,073 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:00:12] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.009
+2024-05-12 15:00:59,027 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:00:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.030
+2024-05-12 15:01:03,065 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:01:03] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.013
+2024-05-12 15:01:49,386 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:01:49] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.022
+2024-05-12 15:01:53,792 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:01:53] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.012
+2024-05-12 15:02:39,732 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:02:39] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.001 50.031
+2024-05-12 15:02:44,077 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:02:44] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.011
+2024-05-12 15:03:30,112 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:03:30] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.068
+2024-05-12 15:03:35,073 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:03:35] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.009
+2024-05-12 15:04:20,502 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:04:20] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.031
+2024-05-12 15:04:26,083 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:04:26] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.011
+2024-05-12 15:05:10,833 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:05:10] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.006
+2024-05-12 15:05:17,076 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:05:17] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.008 0.009
+2024-05-12 15:06:01,180 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:06:01] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.001 50.028
+2024-05-12 15:06:08,079 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:06:08] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.010
+2024-05-12 15:06:51,528 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:06:51] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.027
+2024-05-12 15:06:59,078 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:06:59] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.014
+2024-05-12 15:07:41,866 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:07:41] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.019
+2024-05-12 15:07:50,082 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:07:50] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.013
+2024-05-12 15:08:30,607 3952 INFO odoo_db odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-12 15:08:30,627 3952 INFO odoo_db odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-12 15:08:30,637 3952 INFO odoo_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-12 15:08:30,662 3952 INFO odoo_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-12 15:08:30,669 3952 INFO odoo_db odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-12 15:08:30,679 3952 INFO odoo_db odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-12 15:08:30,684 3952 INFO odoo_db odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-12 15:08:30,698 3952 INFO odoo_db odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-12 15:08:30,702 3952 INFO odoo_db odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-12 15:08:30,712 3952 INFO odoo_db odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-12 15:08:32,216 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:08:32] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.030
+2024-05-12 15:08:41,086 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:08:41] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.003
+2024-05-12 15:09:22,549 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:09:22] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.011 50.016
+2024-05-12 15:09:32,072 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:09:32] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.008
+2024-05-12 15:10:12,898 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:10:12] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.012 50.019
+2024-05-12 15:10:23,082 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:10:23] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.011
+2024-05-12 15:11:03,254 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:11:03] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.031
+2024-05-12 15:11:14,079 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:11:14] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.012
+2024-05-12 15:11:53,590 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:11:53] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.014
+2024-05-12 15:12:05,078 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:12:05] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.012
+2024-05-12 15:12:43,942 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:12:43] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.024
+2024-05-12 15:12:56,089 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:12:56] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.013
+2024-05-12 15:13:34,294 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:13:34] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.002 50.030
+2024-05-12 15:13:47,077 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:13:47] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.004
+2024-05-12 15:14:24,643 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:14:24] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.025
+2024-05-12 15:14:38,085 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:14:38] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.012
+2024-05-12 15:15:14,997 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:15:14] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.001 50.033
+2024-05-12 15:15:29,085 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:15:29] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.010 0.003
+2024-05-12 15:16:05,347 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:16:05] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.010 50.025
+2024-05-12 15:16:20,092 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:16:20] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.011 0.006
+2024-05-12 15:16:55,681 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:16:55] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.017
+2024-05-12 15:17:11,100 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:17:11] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.011
+2024-05-12 15:17:13,649 3952 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-12 15:17:13,649 3952 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-12 15:17:14,016 3952 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 6 connections  
+2024-05-12 15:17:14,086 3952 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:17:14] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 18.091
+2024-05-12 15:17:59,053 11384 INFO ? odoo: Odoo version 15.0-20240509 
+2024-05-12 15:17:59,053 11384 INFO ? odoo: Using configuration file at C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo.conf 
+2024-05-12 15:17:59,053 11384 INFO ? odoo: addons paths: ['C:\\Users\\juanj\\Documents\\Juan\\Aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\custom_addons'] 
+2024-05-12 15:17:59,053 11384 INFO ? odoo: database: admin@localhost:5432 
+2024-05-12 15:17:59,342 11384 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\juanj\Documents\Juan\Aden\odoo15\thirdparty\wkhtmltopdf.exe 
+2024-05-12 15:17:59,801 11384 INFO ? odoo.service.server: HTTP service (werkzeug) running on jr_zenbook:8069 
+2024-05-12 15:18:01,836 11384 INFO ? odoo.http: HTTP Configuring static files 
+2024-05-12 15:18:01,946 11384 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2024-05-12 15:18:01,946 11384 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2024-05-12 15:18:01,961 11384 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:18:02,026 11384 INFO odoo_db odoo.modules.loading: loading 43 modules... 
+2024-05-12 15:18:02,028 11384 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:18:03,235 11384 INFO odoo_db odoo.modules.loading: 43 modules loaded in 1.21s, 0 queries (+0 extra) 
+2024-05-12 15:18:03,478 11384 INFO odoo_db odoo.modules.loading: Modules loaded. 
+2024-05-12 15:18:03,488 11384 INFO odoo_db odoo.modules.registry: Registry loaded in 1.621s 
+2024-05-12 15:18:03,489 11384 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-05-12 15:18:03,817 11384 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:18:03] "POST /longpolling/im_status HTTP/1.1" 200 - 33 0.127 1.823
+2024-05-12 15:18:04,296 11384 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:18:04] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 45 0.028 0.026
+2024-05-12 15:18:04,625 11384 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:18:04] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.006 0.007
+2024-05-12 15:18:06,684 11384 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:18:06] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 3 0.007 0.127
+2024-05-12 15:18:07,758 11384 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:18:07] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 6 0.000 0.024
+2024-05-12 15:18:08,000 11384 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:18:08] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 4 0.007 0.001
+2024-05-12 15:18:08,071 11384 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin@admin.com #2 via 127.0.0.1 
+2024-05-12 15:18:08,300 11384 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:18:09,394 11384 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:18:09,565 11384 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-05-12 15:18:09,624 11384 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:18:09] "POST /web/dataset/call_button HTTP/1.1" 200 - 1084 0.474 1.082
+2024-05-12 15:18:12,802 11384 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:18:12,868 11384 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:18:12] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 9 0.014 0.068
+2024-05-12 15:18:13,189 11384 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:18:13] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 - 4 0.006 0.000
+2024-05-12 15:18:13,536 11384 INFO ? werkzeug: 127.0.0.1 - - [12/May/2024 15:18:13] "GET /base/static/src/css/description.css HTTP/1.1" 304 - - - -
+2024-05-12 15:18:13,557 11384 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:18:13] "GET /web/image?model=ir.module.module&id=521&field=icon_image&unique=05122024115637 HTTP/1.1" 200 - 3 0.003 0.006
+2024-05-12 15:18:54,394 11384 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:18:54] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.006 0.005
+2024-05-12 15:18:57,735 11384 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-12 15:18:57,735 11384 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-12 15:18:57,937 11384 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 5 connections  
+2024-05-12 15:18:57,985 11384 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:18:57] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.053 48.491
+2024-05-12 15:19:14,876 12752 INFO ? odoo: Odoo version 15.0-20240509 
+2024-05-12 15:19:14,876 12752 INFO ? odoo: Using configuration file at C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo.conf 
+2024-05-12 15:19:14,876 12752 INFO ? odoo: addons paths: ['C:\\Users\\juanj\\Documents\\Juan\\Aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\custom_addons'] 
+2024-05-12 15:19:14,876 12752 INFO ? odoo: database: admin@localhost:5432 
+2024-05-12 15:19:15,168 12752 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\juanj\Documents\Juan\Aden\odoo15\thirdparty\wkhtmltopdf.exe 
+2024-05-12 15:19:15,619 12752 INFO ? odoo.service.server: HTTP service (werkzeug) running on jr_zenbook:8069 
+2024-05-12 15:19:18,633 12752 INFO ? odoo.http: HTTP Configuring static files 
+2024-05-12 15:19:18,717 12752 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2024-05-12 15:19:18,728 12752 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-05-12 15:19:18,738 12752 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:19:18,774 12752 INFO odoo_db odoo.modules.loading: loading 43 modules... 
+2024-05-12 15:19:18,786 12752 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:19:19,760 12752 INFO odoo_db odoo.modules.loading: 43 modules loaded in 0.99s, 0 queries (+0 extra) 
+2024-05-12 15:19:19,973 12752 INFO odoo_db odoo.modules.loading: Modules loaded. 
+2024-05-12 15:19:19,981 12752 INFO odoo_db odoo.modules.registry: Registry loaded in 1.333s 
+2024-05-12 15:19:19,981 12752 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-05-12 15:19:20,235 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:19:20] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 61 0.095 1.495
+2024-05-12 15:19:20,251 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:19:20] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.005
+2024-05-12 15:19:22,628 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:19:22] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 3 0.008 0.140
+2024-05-12 15:19:23,596 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:19:23] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 6 0.003 0.020
+2024-05-12 15:19:23,914 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:19:23] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 4 0.003 0.005
+2024-05-12 15:19:24,181 12752 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin@admin.com #2 via 127.0.0.1 
+2024-05-12 15:19:24,917 12752 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:19:25,512 12752 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:19:25,670 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:19:25] "POST /web/dataset/call_button HTTP/1.1" 200 - 1085 0.407 1.088
+2024-05-12 15:19:27,382 12752 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-05-12 15:19:28,050 12752 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Gestion de Alumnos'] to user admin@admin.com #2 via 127.0.0.1 
+2024-05-12 15:19:28,050 12752 INFO odoo_db odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-05-12 15:19:28,050 12752 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Gestion de Alumnos'] to user admin@admin.com #2 via 127.0.0.1 
+2024-05-12 15:19:28,067 12752 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:19:28,226 12752 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2024-05-12 15:19:28,229 12752 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2024-05-12 15:19:28,270 12752 INFO odoo_db odoo.modules.loading: updating modules list 
+2024-05-12 15:19:28,278 12752 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2024-05-12 15:19:29,053 12752 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:19:29,614 12752 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:19:29,763 12752 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:19:29,810 12752 INFO odoo_db odoo.modules.loading: loading 43 modules... 
+2024-05-12 15:19:29,842 12752 INFO odoo_db odoo.modules.loading: 43 modules loaded in 0.03s, 0 queries (+0 extra) 
+2024-05-12 15:19:29,842 12752 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:19:29,842 12752 INFO odoo_db odoo.modules.loading: loading 44 modules... 
+2024-05-12 15:19:29,842 12752 INFO odoo_db odoo.modules.loading: Loading module gestion_alumnos (4/44) 
+2024-05-12 15:19:30,064 12752 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:19:30,443 12752 INFO odoo_db odoo.modules.loading: Module gestion_alumnos loaded in 0.60s, 17 queries 
+2024-05-12 15:19:30,443 12752 INFO odoo_db odoo.modules.loading: 44 modules loaded in 0.60s, 17 queries (+0 extra) 
+2024-05-12 15:19:31,327 12752 INFO odoo_db odoo.modules.loading: Modules loaded. 
+2024-05-12 15:19:31,347 12752 INFO odoo_db odoo.modules.registry: Registry loaded in 3.188s 
+2024-05-12 15:19:31,347 12752 INFO odoo_db odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2024-05-12 15:19:31,351 12752 INFO odoo_db odoo.modules.registry: Registry changed, signaling through the database 
+2024-05-12 15:19:31,351 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:19:31] "POST /web/dataset/call_button HTTP/1.1" 200 - 1798 1.137 2.172
+2024-05-12 15:19:31,681 12752 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-05-12 15:19:33,279 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:19:33] "GET /web HTTP/1.1" 200 - 326 0.185 1.415
+2024-05-12 15:19:33,633 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:19:33] "GET /web/webclient/load_menus/dfad4e779bcf96ec32af83bad34954002d22e45e7dac3c22412dcef93e1821b2 HTTP/1.1" 200 - 1 0.000 0.007
+2024-05-12 15:19:34,024 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:19:34] "POST /mail/init_messaging HTTP/1.1" 200 - 67 0.086 0.068
+2024-05-12 15:19:34,139 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:19:34] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 4 0.005 0.010
+2024-05-12 15:19:34,499 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:19:34] "POST /web/action/load HTTP/1.1" 200 - 8 0.033 0.288
+2024-05-12 15:19:34,499 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:19:34] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.021 0.296
+2024-05-12 15:19:34,513 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:19:34] "POST /longpolling/im_status HTTP/1.1" 200 - 12 0.154 0.181
+2024-05-12 15:19:34,564 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:19:34] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 11 0.033 0.111
+2024-05-12 15:19:34,857 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:19:34] "POST /mail/inbox/messages HTTP/1.1" 200 - 9 0.031 0.000
+2024-05-12 15:19:34,916 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:19:34] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 7 0.001 0.024
+2024-05-12 15:19:35,945 12752 INFO ? werkzeug: 127.0.0.1 - - [12/May/2024 15:19:35] "GET /web_tour/static/src/xml/tip.xml?debug=1715527175635 HTTP/1.1" 200 - - - -
+2024-05-12 15:19:37,645 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:19:37] "POST /web/action/load HTTP/1.1" 200 - 28 0.054 0.019
+2024-05-12 15:19:38,071 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:19:38] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 57 0.056 0.046
+2024-05-12 15:19:38,442 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:19:38] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.018 0.033
+2024-05-12 15:19:38,776 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:19:38] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.014 0.006
+2024-05-12 15:19:39,216 12752 INFO ? werkzeug: 127.0.0.1 - - [12/May/2024 15:19:39] "GET /base/static/description/icon.png HTTP/1.1" 304 - - - -
+2024-05-12 15:20:15,694 12752 INFO odoo_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-12 15:20:15,694 12752 INFO odoo_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-12 15:20:17,393 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:20:17] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.019 50.029
+2024-05-12 15:20:24,521 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:20:24] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.023 50.326
+2024-05-12 15:20:25,105 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:20:25] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.012
+2024-05-12 15:21:14,888 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:21:14] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.010 50.027
+2024-05-12 15:21:16,406 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:21:16] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.013
+2024-05-12 15:21:38,358 12752 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-12 15:21:38,358 12752 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-12 15:21:38,710 12752 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 8 connections  
+2024-05-12 15:21:38,775 12752 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:21:38] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.037 23.842
+2024-05-12 15:21:41,745 12812 INFO ? odoo: Odoo version 15.0-20240509 
+2024-05-12 15:21:41,745 12812 INFO ? odoo: Using configuration file at C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo.conf 
+2024-05-12 15:21:41,745 12812 INFO ? odoo: addons paths: ['C:\\Users\\juanj\\Documents\\Juan\\Aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\custom_addons'] 
+2024-05-12 15:21:41,745 12812 INFO ? odoo: database: admin@localhost:5432 
+2024-05-12 15:21:41,982 12812 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\juanj\Documents\Juan\Aden\odoo15\thirdparty\wkhtmltopdf.exe 
+2024-05-12 15:21:42,368 12812 INFO ? odoo.service.server: HTTP service (werkzeug) running on jr_zenbook:8069 
+2024-05-12 15:21:55,179 12812 INFO ? odoo.http: HTTP Configuring static files 
+2024-05-12 15:21:55,263 12812 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2024-05-12 15:21:55,277 12812 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-05-12 15:21:55,285 12812 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:21:55,287 12812 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:21:55,327 12812 INFO odoo_db odoo.modules.loading: loading 44 modules... 
+2024-05-12 15:21:55,346 12812 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:21:55,353 12812 CRITICAL odoo_db odoo.modules.module: Couldn't load module gestion_alumnos 
+2024-05-12 15:21:55,353 12812 CRITICAL odoo_db odoo.modules.module: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py) 
+2024-05-12 15:21:55,358 12812 WARNING odoo_db odoo.modules.loading: Transient module states were reset 
+2024-05-12 15:21:55,358 12812 ERROR odoo_db odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 61, in __new__
+    return cls.registries[db_name]
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoo_db'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 472, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\__init__.py", line 1, in <module>
+    from . import models
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py", line 1, in <module>
+    from . import models
+ImportError: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py)
+2024-05-12 15:21:55,408 12812 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:21:55] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 500 - 11 0.020 0.187
+2024-05-12 15:21:55,467 12812 ERROR odoo_db werkzeug: Error on request:
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 61, in __new__
+    return cls.registries[db_name]
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoo_db'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\serving.py", line 306, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\serving.py", line 294, in execute
+    application_iter = app(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\server.py", line 482, in app
+    return self.app(e, s)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\wsgi_server.py", line 112, in application
+    return application_unproxied(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\wsgi_server.py", line 87, in application_unproxied
+    result = odoo.http.root(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1355, in __call__
+    return self.dispatch(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1321, in __call__
+    return self.app(environ, start_wrapped)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\middleware\shared_data.py", line 220, in __call__
+    return self.app(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1530, in dispatch
+    odoo.registry(db).check_signaling()
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\__init__.py", line 125, in registry
+    return modules.registry.Registry(database_name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 63, in __new__
+    return cls.new(db_name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 472, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\__init__.py", line 1, in <module>
+    from . import models
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py", line 1, in <module>
+    from . import models
+ImportError: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py) - - -
+2024-05-12 15:21:57,446 12812 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2024-05-12 15:21:57,456 12812 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-05-12 15:21:57,464 12812 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:21:57,464 12812 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:21:57,497 12812 INFO odoo_db odoo.modules.loading: loading 44 modules... 
+2024-05-12 15:21:57,497 12812 CRITICAL odoo_db odoo.modules.module: Couldn't load module gestion_alumnos 
+2024-05-12 15:21:57,497 12812 CRITICAL odoo_db odoo.modules.module: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py) 
+2024-05-12 15:21:57,497 12812 WARNING odoo_db odoo.modules.loading: Transient module states were reset 
+2024-05-12 15:21:57,497 12812 ERROR odoo_db odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 61, in __new__
+    return cls.registries[db_name]
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoo_db'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 472, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\__init__.py", line 1, in <module>
+    from . import models
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py", line 1, in <module>
+    from . import models
+ImportError: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py)
+2024-05-12 15:21:57,513 12812 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:21:57] "POST /web/webclient/version_info HTTP/1.1" 500 - 11 0.008 0.067
+2024-05-12 15:21:57,520 12812 ERROR odoo_db werkzeug: Error on request:
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 61, in __new__
+    return cls.registries[db_name]
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoo_db'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\serving.py", line 306, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\serving.py", line 294, in execute
+    application_iter = app(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\server.py", line 482, in app
+    return self.app(e, s)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\wsgi_server.py", line 112, in application
+    return application_unproxied(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\wsgi_server.py", line 87, in application_unproxied
+    result = odoo.http.root(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1355, in __call__
+    return self.dispatch(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1321, in __call__
+    return self.app(environ, start_wrapped)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\middleware\shared_data.py", line 220, in __call__
+    return self.app(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1530, in dispatch
+    odoo.registry(db).check_signaling()
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\__init__.py", line 125, in registry
+    return modules.registry.Registry(database_name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 63, in __new__
+    return cls.new(db_name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 472, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\__init__.py", line 1, in <module>
+    from . import models
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py", line 1, in <module>
+    from . import models
+ImportError: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py) - - -
+2024-05-12 15:22:01,303 12812 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2024-05-12 15:22:01,313 12812 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-05-12 15:22:01,319 12812 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:22:01,319 12812 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:22:01,360 12812 INFO odoo_db odoo.modules.loading: loading 44 modules... 
+2024-05-12 15:22:01,360 12812 CRITICAL odoo_db odoo.modules.module: Couldn't load module gestion_alumnos 
+2024-05-12 15:22:01,360 12812 CRITICAL odoo_db odoo.modules.module: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py) 
+2024-05-12 15:22:01,360 12812 WARNING odoo_db odoo.modules.loading: Transient module states were reset 
+2024-05-12 15:22:01,360 12812 ERROR odoo_db odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 61, in __new__
+    return cls.registries[db_name]
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoo_db'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 472, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\__init__.py", line 1, in <module>
+    from . import models
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py", line 1, in <module>
+    from . import models
+ImportError: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py)
+2024-05-12 15:22:01,360 12812 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:22:01] "POST /web/webclient/version_info HTTP/1.1" 500 - 11 0.000 0.066
+2024-05-12 15:22:01,378 12812 ERROR odoo_db werkzeug: Error on request:
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 61, in __new__
+    return cls.registries[db_name]
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoo_db'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\serving.py", line 306, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\serving.py", line 294, in execute
+    application_iter = app(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\server.py", line 482, in app
+    return self.app(e, s)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\wsgi_server.py", line 112, in application
+    return application_unproxied(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\wsgi_server.py", line 87, in application_unproxied
+    result = odoo.http.root(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1355, in __call__
+    return self.dispatch(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1321, in __call__
+    return self.app(environ, start_wrapped)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\middleware\shared_data.py", line 220, in __call__
+    return self.app(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1530, in dispatch
+    odoo.registry(db).check_signaling()
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\__init__.py", line 125, in registry
+    return modules.registry.Registry(database_name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 63, in __new__
+    return cls.new(db_name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 472, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\__init__.py", line 1, in <module>
+    from . import models
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py", line 1, in <module>
+    from . import models
+ImportError: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py) - - -
+2024-05-12 15:22:02,149 12812 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2024-05-12 15:22:02,163 12812 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-05-12 15:22:02,166 12812 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:22:02,166 12812 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:22:02,220 12812 INFO odoo_db odoo.modules.loading: loading 44 modules... 
+2024-05-12 15:22:02,224 12812 CRITICAL odoo_db odoo.modules.module: Couldn't load module gestion_alumnos 
+2024-05-12 15:22:02,224 12812 CRITICAL odoo_db odoo.modules.module: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py) 
+2024-05-12 15:22:02,226 12812 WARNING odoo_db odoo.modules.loading: Transient module states were reset 
+2024-05-12 15:22:02,226 12812 ERROR odoo_db odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 61, in __new__
+    return cls.registries[db_name]
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoo_db'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 472, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\__init__.py", line 1, in <module>
+    from . import models
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py", line 1, in <module>
+    from . import models
+ImportError: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py)
+2024-05-12 15:22:02,232 12812 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:22:02] "POST /longpolling/poll HTTP/1.1" 500 - 11 0.003 0.083
+2024-05-12 15:22:02,241 12812 ERROR odoo_db werkzeug: Error on request:
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 61, in __new__
+    return cls.registries[db_name]
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoo_db'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\serving.py", line 306, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\serving.py", line 294, in execute
+    application_iter = app(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\server.py", line 482, in app
+    return self.app(e, s)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\wsgi_server.py", line 112, in application
+    return application_unproxied(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\wsgi_server.py", line 87, in application_unproxied
+    result = odoo.http.root(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1355, in __call__
+    return self.dispatch(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1321, in __call__
+    return self.app(environ, start_wrapped)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\middleware\shared_data.py", line 220, in __call__
+    return self.app(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1530, in dispatch
+    odoo.registry(db).check_signaling()
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\__init__.py", line 125, in registry
+    return modules.registry.Registry(database_name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 63, in __new__
+    return cls.new(db_name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 472, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\__init__.py", line 1, in <module>
+    from . import models
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py", line 1, in <module>
+    from . import models
+ImportError: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py) - - -
+2024-05-12 15:22:05,840 12812 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2024-05-12 15:22:05,853 12812 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-05-12 15:22:05,865 12812 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:22:05,865 12812 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:22:05,902 12812 INFO odoo_db odoo.modules.loading: loading 44 modules... 
+2024-05-12 15:22:05,902 12812 CRITICAL odoo_db odoo.modules.module: Couldn't load module gestion_alumnos 
+2024-05-12 15:22:05,902 12812 CRITICAL odoo_db odoo.modules.module: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py) 
+2024-05-12 15:22:05,910 12812 WARNING odoo_db odoo.modules.loading: Transient module states were reset 
+2024-05-12 15:22:05,910 12812 ERROR odoo_db odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 61, in __new__
+    return cls.registries[db_name]
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoo_db'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 472, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\__init__.py", line 1, in <module>
+    from . import models
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py", line 1, in <module>
+    from . import models
+ImportError: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py)
+2024-05-12 15:22:05,911 12812 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:22:05] "GET /web HTTP/1.1" 500 - 11 0.011 0.066
+2024-05-12 15:22:05,911 12812 ERROR odoo_db werkzeug: Error on request:
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 61, in __new__
+    return cls.registries[db_name]
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoo_db'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\serving.py", line 306, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\serving.py", line 294, in execute
+    application_iter = app(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\server.py", line 482, in app
+    return self.app(e, s)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\wsgi_server.py", line 112, in application
+    return application_unproxied(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\wsgi_server.py", line 87, in application_unproxied
+    result = odoo.http.root(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1355, in __call__
+    return self.dispatch(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1321, in __call__
+    return self.app(environ, start_wrapped)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\middleware\shared_data.py", line 220, in __call__
+    return self.app(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1530, in dispatch
+    odoo.registry(db).check_signaling()
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\__init__.py", line 125, in registry
+    return modules.registry.Registry(database_name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 63, in __new__
+    return cls.new(db_name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 472, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\__init__.py", line 1, in <module>
+    from . import models
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py", line 1, in <module>
+    from . import models
+ImportError: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py) - - -
+2024-05-12 15:22:05,953 12812 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2024-05-12 15:22:05,963 12812 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-05-12 15:22:05,967 12812 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:22:05,967 12812 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:22:06,008 12812 INFO odoo_db odoo.modules.loading: loading 44 modules... 
+2024-05-12 15:22:06,014 12812 CRITICAL odoo_db odoo.modules.module: Couldn't load module gestion_alumnos 
+2024-05-12 15:22:06,014 12812 CRITICAL odoo_db odoo.modules.module: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py) 
+2024-05-12 15:22:06,015 12812 WARNING odoo_db odoo.modules.loading: Transient module states were reset 
+2024-05-12 15:22:06,017 12812 ERROR odoo_db odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 61, in __new__
+    return cls.registries[db_name]
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoo_db'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 472, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\__init__.py", line 1, in <module>
+    from . import models
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py", line 1, in <module>
+    from . import models
+ImportError: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py)
+2024-05-12 15:22:06,017 12812 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:22:06] "GET /favicon.ico HTTP/1.1" 500 - 11 0.000 0.071
+2024-05-12 15:22:06,026 12812 ERROR odoo_db werkzeug: Error on request:
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 61, in __new__
+    return cls.registries[db_name]
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoo_db'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\serving.py", line 306, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\serving.py", line 294, in execute
+    application_iter = app(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\server.py", line 482, in app
+    return self.app(e, s)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\wsgi_server.py", line 112, in application
+    return application_unproxied(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\wsgi_server.py", line 87, in application_unproxied
+    result = odoo.http.root(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1355, in __call__
+    return self.dispatch(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1321, in __call__
+    return self.app(environ, start_wrapped)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\middleware\shared_data.py", line 220, in __call__
+    return self.app(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1530, in dispatch
+    odoo.registry(db).check_signaling()
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\__init__.py", line 125, in registry
+    return modules.registry.Registry(database_name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 63, in __new__
+    return cls.new(db_name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 472, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\__init__.py", line 1, in <module>
+    from . import models
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py", line 1, in <module>
+    from . import models
+ImportError: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py) - - -
+2024-05-12 15:22:32,032 12812 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-12 15:22:32,032 12812 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-12 15:22:33,116 12812 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 3 connections  
+2024-05-12 15:22:37,431 16004 INFO ? odoo: Odoo version 15.0-20240509 
+2024-05-12 15:22:37,431 16004 INFO ? odoo: Using configuration file at C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo.conf 
+2024-05-12 15:22:37,431 16004 INFO ? odoo: addons paths: ['C:\\Users\\juanj\\Documents\\Juan\\Aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\custom_addons'] 
+2024-05-12 15:22:37,431 16004 INFO ? odoo: database: admin@localhost:5432 
+2024-05-12 15:22:37,680 16004 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\juanj\Documents\Juan\Aden\odoo15\thirdparty\wkhtmltopdf.exe 
+2024-05-12 15:22:38,031 16004 INFO ? odoo.service.server: HTTP service (werkzeug) running on jr_zenbook:8069 
+2024-05-12 15:22:41,639 16004 INFO ? odoo.http: HTTP Configuring static files 
+2024-05-12 15:22:41,717 16004 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2024-05-12 15:22:41,729 16004 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-05-12 15:22:41,737 16004 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:22:41,737 16004 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:22:41,779 16004 INFO odoo_db odoo.modules.loading: loading 44 modules... 
+2024-05-12 15:22:41,786 16004 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:22:41,797 16004 CRITICAL odoo_db odoo.modules.module: Couldn't load module gestion_alumnos 
+2024-05-12 15:22:41,797 16004 CRITICAL odoo_db odoo.modules.module: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py) 
+2024-05-12 15:22:41,797 16004 WARNING odoo_db odoo.modules.loading: Transient module states were reset 
+2024-05-12 15:22:41,797 16004 ERROR odoo_db odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 61, in __new__
+    return cls.registries[db_name]
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoo_db'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 472, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\__init__.py", line 1, in <module>
+    from . import models
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py", line 1, in <module>
+    from . import models
+ImportError: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py)
+2024-05-12 15:22:41,802 16004 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:22:41] "GET /web HTTP/1.1" 500 - 11 0.021 0.134
+2024-05-12 15:22:41,813 16004 ERROR odoo_db werkzeug: Error on request:
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 61, in __new__
+    return cls.registries[db_name]
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoo_db'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\serving.py", line 306, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\serving.py", line 294, in execute
+    application_iter = app(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\server.py", line 482, in app
+    return self.app(e, s)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\wsgi_server.py", line 112, in application
+    return application_unproxied(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\wsgi_server.py", line 87, in application_unproxied
+    result = odoo.http.root(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1355, in __call__
+    return self.dispatch(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1321, in __call__
+    return self.app(environ, start_wrapped)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\middleware\shared_data.py", line 220, in __call__
+    return self.app(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1530, in dispatch
+    odoo.registry(db).check_signaling()
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\__init__.py", line 125, in registry
+    return modules.registry.Registry(database_name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 63, in __new__
+    return cls.new(db_name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 472, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\__init__.py", line 1, in <module>
+    from . import models
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py", line 1, in <module>
+    from . import models
+ImportError: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py) - - -
+2024-05-12 15:22:41,836 16004 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2024-05-12 15:22:41,850 16004 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-05-12 15:22:41,858 16004 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:22:41,858 16004 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:22:41,895 16004 INFO odoo_db odoo.modules.loading: loading 44 modules... 
+2024-05-12 15:22:41,895 16004 CRITICAL odoo_db odoo.modules.module: Couldn't load module gestion_alumnos 
+2024-05-12 15:22:41,895 16004 CRITICAL odoo_db odoo.modules.module: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py) 
+2024-05-12 15:22:41,895 16004 WARNING odoo_db odoo.modules.loading: Transient module states were reset 
+2024-05-12 15:22:41,905 16004 ERROR odoo_db odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 61, in __new__
+    return cls.registries[db_name]
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoo_db'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 472, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\__init__.py", line 1, in <module>
+    from . import models
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py", line 1, in <module>
+    from . import models
+ImportError: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py)
+2024-05-12 15:22:41,910 16004 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:22:41] "GET /favicon.ico HTTP/1.1" 500 - 11 0.003 0.079
+2024-05-12 15:22:41,918 16004 ERROR odoo_db werkzeug: Error on request:
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 61, in __new__
+    return cls.registries[db_name]
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoo_db'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\serving.py", line 306, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\serving.py", line 294, in execute
+    application_iter = app(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\server.py", line 482, in app
+    return self.app(e, s)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\wsgi_server.py", line 112, in application
+    return application_unproxied(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\wsgi_server.py", line 87, in application_unproxied
+    result = odoo.http.root(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1355, in __call__
+    return self.dispatch(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1321, in __call__
+    return self.app(environ, start_wrapped)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\middleware\shared_data.py", line 220, in __call__
+    return self.app(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1530, in dispatch
+    odoo.registry(db).check_signaling()
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\__init__.py", line 125, in registry
+    return modules.registry.Registry(database_name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 63, in __new__
+    return cls.new(db_name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 472, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\__init__.py", line 1, in <module>
+    from . import models
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py", line 1, in <module>
+    from . import models
+ImportError: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py) - - -
+2024-05-12 15:22:56,907 2196 INFO ? odoo: Odoo version 15.0-20240509 
+2024-05-12 15:22:56,908 2196 INFO ? odoo: Using configuration file at C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo.conf 
+2024-05-12 15:22:56,908 2196 INFO ? odoo: addons paths: ['C:\\Users\\juanj\\Documents\\Juan\\Aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\custom_addons'] 
+2024-05-12 15:22:56,908 2196 INFO ? odoo: database: admin@localhost:5432 
+2024-05-12 15:22:57,153 2196 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\juanj\Documents\Juan\Aden\odoo15\thirdparty\wkhtmltopdf.exe 
+2024-05-12 15:22:57,536 2196 INFO ? odoo.service.server: HTTP service (werkzeug) running on jr_zenbook:8069 
+2024-05-12 15:22:57,779 16004 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2024-05-12 15:22:57,793 16004 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-05-12 15:22:57,801 16004 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:22:57,801 16004 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:22:57,832 16004 INFO odoo_db odoo.modules.loading: loading 44 modules... 
+2024-05-12 15:22:57,843 16004 CRITICAL odoo_db odoo.modules.module: Couldn't load module gestion_alumnos 
+2024-05-12 15:22:57,843 16004 CRITICAL odoo_db odoo.modules.module: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py) 
+2024-05-12 15:22:57,843 16004 WARNING odoo_db odoo.modules.loading: Transient module states were reset 
+2024-05-12 15:22:57,843 16004 ERROR odoo_db odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 61, in __new__
+    return cls.registries[db_name]
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoo_db'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 472, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\__init__.py", line 1, in <module>
+    from . import models
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py", line 1, in <module>
+    from . import models
+ImportError: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py)
+2024-05-12 15:22:57,849 16004 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:22:57] "GET /web HTTP/1.1" 500 - 11 0.001 0.078
+2024-05-12 15:22:57,849 16004 ERROR odoo_db werkzeug: Error on request:
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 61, in __new__
+    return cls.registries[db_name]
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoo_db'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\serving.py", line 306, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\serving.py", line 294, in execute
+    application_iter = app(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\server.py", line 482, in app
+    return self.app(e, s)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\wsgi_server.py", line 112, in application
+    return application_unproxied(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\wsgi_server.py", line 87, in application_unproxied
+    result = odoo.http.root(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1355, in __call__
+    return self.dispatch(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1321, in __call__
+    return self.app(environ, start_wrapped)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\middleware\shared_data.py", line 220, in __call__
+    return self.app(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1530, in dispatch
+    odoo.registry(db).check_signaling()
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\__init__.py", line 125, in registry
+    return modules.registry.Registry(database_name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 63, in __new__
+    return cls.new(db_name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 472, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\__init__.py", line 1, in <module>
+    from . import models
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py", line 1, in <module>
+    from . import models
+ImportError: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py) - - -
+2024-05-12 15:22:58,074 16004 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2024-05-12 15:22:58,090 16004 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2024-05-12 15:22:58,090 16004 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:22:58,090 16004 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:22:58,136 16004 INFO odoo_db odoo.modules.loading: loading 44 modules... 
+2024-05-12 15:22:58,136 16004 CRITICAL odoo_db odoo.modules.module: Couldn't load module gestion_alumnos 
+2024-05-12 15:22:58,136 16004 CRITICAL odoo_db odoo.modules.module: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py) 
+2024-05-12 15:22:58,136 16004 WARNING odoo_db odoo.modules.loading: Transient module states were reset 
+2024-05-12 15:22:58,136 16004 ERROR odoo_db odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 61, in __new__
+    return cls.registries[db_name]
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoo_db'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 472, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\__init__.py", line 1, in <module>
+    from . import models
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py", line 1, in <module>
+    from . import models
+ImportError: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py)
+2024-05-12 15:22:58,136 16004 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:22:58] "GET /favicon.ico HTTP/1.1" 500 - 11 0.000 0.062
+2024-05-12 15:22:58,152 16004 ERROR odoo_db werkzeug: Error on request:
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 61, in __new__
+    return cls.registries[db_name]
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\tools\lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoo_db'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\serving.py", line 306, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\serving.py", line 294, in execute
+    application_iter = app(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\server.py", line 482, in app
+    return self.app(e, s)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\wsgi_server.py", line 112, in application
+    return application_unproxied(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\service\wsgi_server.py", line 87, in application_unproxied
+    result = odoo.http.root(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1355, in __call__
+    return self.dispatch(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1321, in __call__
+    return self.app(environ, start_wrapped)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\python\lib\site-packages\werkzeug\middleware\shared_data.py", line 220, in __call__
+    return self.app(environ, start_response)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\http.py", line 1530, in dispatch
+    odoo.registry(db).check_signaling()
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\__init__.py", line 125, in registry
+    return modules.registry.Registry(database_name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 63, in __new__
+    return cls.new(db_name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 472, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\loading.py", line 179, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo\modules\module.py", line 407, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\__init__.py", line 1, in <module>
+    from . import models
+  File "c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py", line 1, in <module>
+    from . import models
+ImportError: cannot import name 'models' from 'odoo.addons.gestion_alumnos.models' (c:\users\juanj\documents\juan\aden\odoo15\server\custom_addons\gestion_alumnos\models\__init__.py) - - -
+2024-05-12 15:23:01,380 2196 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-12 15:23:01,380 2196 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-12 15:23:01,602 2196 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-05-12 15:23:18,147 16004 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-12 15:23:18,147 16004 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-12 15:23:18,365 16004 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 3 connections  
+2024-05-12 15:23:21,539 9008 INFO ? odoo: Odoo version 15.0-20240509 
+2024-05-12 15:23:21,539 9008 INFO ? odoo: Using configuration file at C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo.conf 
+2024-05-12 15:23:21,539 9008 INFO ? odoo: addons paths: ['C:\\Users\\juanj\\Documents\\Juan\\Aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\custom_addons'] 
+2024-05-12 15:23:21,539 9008 INFO ? odoo: database: admin@localhost:5432 
+2024-05-12 15:23:21,798 9008 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\juanj\Documents\Juan\Aden\odoo15\thirdparty\wkhtmltopdf.exe 
+2024-05-12 15:23:22,179 9008 INFO ? odoo.service.server: HTTP service (werkzeug) running on jr_zenbook:8069 
+2024-05-12 15:23:24,888 9008 INFO ? odoo.http: HTTP Configuring static files 
+2024-05-12 15:23:24,972 9008 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2024-05-12 15:23:24,977 9008 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-05-12 15:23:24,990 9008 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:23:24,990 9008 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:23:25,026 9008 INFO odoo_db odoo.modules.loading: loading 44 modules... 
+2024-05-12 15:23:25,045 9008 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:23:25,064 9008 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:23:26,121 9008 INFO odoo_db odoo.modules.loading: 44 modules loaded in 1.10s, 0 queries (+0 extra) 
+2024-05-12 15:23:26,340 9008 INFO odoo_db odoo.modules.loading: Modules loaded. 
+2024-05-12 15:23:26,350 9008 INFO odoo_db odoo.modules.registry: Registry loaded in 1.445s 
+2024-05-12 15:23:26,352 9008 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-05-12 15:23:27,862 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:23:27] "GET /web HTTP/1.1" 200 - 341 0.257 2.700
+2024-05-12 15:23:27,891 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:23:27] "GET /web/webclient/load_menus/dfad4e779bcf96ec32af83bad34954002d22e45e7dac3c22412dcef93e1821b2 HTTP/1.1" 200 - 1 0.000 0.009
+2024-05-12 15:23:28,539 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:23:28] "POST /web/action/load HTTP/1.1" 200 - 28 0.031 0.184
+2024-05-12 15:23:28,949 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:23:28] "POST /mail/init_messaging HTTP/1.1" 200 - 67 0.094 0.158
+2024-05-12 15:23:28,974 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:23:28] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 4 0.014 0.189
+2024-05-12 15:23:29,023 9008 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-05-12 15:23:29,075 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:23:29] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.064 0.233
+2024-05-12 15:23:29,078 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:23:29] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 16 0.069 0.143
+2024-05-12 15:23:29,135 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:23:29] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 57 0.122 0.225
+2024-05-12 15:23:29,305 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:23:29] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.010 0.015
+2024-05-12 15:23:29,305 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:23:29] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.013 0.012
+2024-05-12 15:23:29,523 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:23:29] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.032 0.020
+2024-05-12 15:23:29,854 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:23:29] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.012
+2024-05-12 15:23:30,297 9008 INFO ? werkzeug: 127.0.0.1 - - [12/May/2024 15:23:30] "GET /base/static/description/icon.png HTTP/1.1" 304 - - - -
+2024-05-12 15:23:32,737 9008 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:23:32,804 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:23:32] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 11 0.012 0.085
+2024-05-12 15:23:33,127 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:23:33] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 - 4 0.005 0.006
+2024-05-12 15:23:33,494 9008 INFO ? werkzeug: 127.0.0.1 - - [12/May/2024 15:23:33] "GET /base/static/src/css/description.css HTTP/1.1" 304 - - - -
+2024-05-12 15:23:33,536 9008 INFO ? werkzeug: 127.0.0.1 - - [12/May/2024 15:23:33] "GET /web/static/img/form_sheetbg.png HTTP/1.1" 304 - - - -
+2024-05-12 15:23:33,549 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:23:33] "GET /web/image?model=ir.module.module&id=521&field=icon_image&unique=05122024121930 HTTP/1.1" 200 - 3 0.002 0.014
+2024-05-12 15:24:19,033 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:24:19] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.060 50.199
+2024-05-12 15:24:19,621 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:24:19] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.009 0.006
+2024-05-12 15:25:09,407 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:25:09] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.010 50.033
+2024-05-12 15:25:09,966 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:25:09] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2024-05-12 15:25:59,431 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:25:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.012
+2024-05-12 15:26:00,109 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:26:00] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.008 0.011
+2024-05-12 15:26:49,790 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:26:49] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.011 50.026
+2024-05-12 15:26:51,094 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:26:51] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.000
+2024-05-12 15:26:54,811 9008 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-12 15:26:54,811 9008 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-12 15:26:54,941 9008 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 8 connections  
+2024-05-12 15:26:54,990 9008 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:26:54] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 4.878
+2024-05-12 15:26:58,364 15576 INFO ? odoo: Odoo version 15.0-20240509 
+2024-05-12 15:26:58,364 15576 INFO ? odoo: Using configuration file at C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo.conf 
+2024-05-12 15:26:58,364 15576 INFO ? odoo: addons paths: ['C:\\Users\\juanj\\Documents\\Juan\\Aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\custom_addons'] 
+2024-05-12 15:26:58,364 15576 INFO ? odoo: database: admin@localhost:5432 
+2024-05-12 15:26:58,621 15576 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\juanj\Documents\Juan\Aden\odoo15\thirdparty\wkhtmltopdf.exe 
+2024-05-12 15:26:58,994 15576 INFO ? odoo.service.server: HTTP service (werkzeug) running on jr_zenbook:8069 
+2024-05-12 15:27:14,689 15576 INFO ? odoo.http: HTTP Configuring static files 
+2024-05-12 15:27:14,767 15576 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2024-05-12 15:27:14,782 15576 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2024-05-12 15:27:14,798 15576 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:27:14,798 15576 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:27:14,829 15576 INFO odoo_db odoo.modules.loading: loading 44 modules... 
+2024-05-12 15:27:14,845 15576 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:27:14,868 15576 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:27:15,861 15576 INFO odoo_db odoo.modules.loading: 44 modules loaded in 1.03s, 0 queries (+0 extra) 
+2024-05-12 15:27:15,955 15576 WARNING odoo_db odoo.fields: Field inscripcion.alumno_id with unknown comodel_name 'gestion_alumnos.alumno' 
+2024-05-12 15:27:15,955 15576 WARNING odoo_db odoo.fields: Field inscripcion.programa_id with unknown comodel_name 'gestion_alumnos.programa' 
+2024-05-12 15:27:16,048 15576 INFO odoo_db odoo.modules.loading: Modules loaded. 
+2024-05-12 15:27:16,071 15576 INFO odoo_db odoo.modules.registry: Registry loaded in 1.367s 
+2024-05-12 15:27:16,072 15576 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-05-12 15:27:16,409 15576 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-05-12 15:27:42,150 15576 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:27:42] "POST /longpolling/im_status HTTP/1.1" 200 - 17 0.039 0.020
+2024-05-12 15:28:06,412 15576 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:28:06] "POST /longpolling/poll HTTP/1.1" 200 - 29 0.052 51.656
+2024-05-12 15:28:25,247 15576 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-12 15:28:25,247 15576 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-12 15:28:25,276 15576 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:28:25] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.001 18.548
+2024-05-12 15:28:26,293 15576 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 4 connections  
+2024-05-12 15:28:32,793 17800 INFO ? odoo: Odoo version 15.0-20240509 
+2024-05-12 15:28:32,793 17800 INFO ? odoo: Using configuration file at C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo.conf 
+2024-05-12 15:28:32,808 17800 INFO ? odoo: addons paths: ['C:\\Users\\juanj\\Documents\\Juan\\Aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\custom_addons'] 
+2024-05-12 15:28:32,808 17800 INFO ? odoo: database: admin@localhost:5432 
+2024-05-12 15:28:33,037 17800 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\juanj\Documents\Juan\Aden\odoo15\thirdparty\wkhtmltopdf.exe 
+2024-05-12 15:28:33,417 17800 INFO ? odoo.service.server: HTTP service (werkzeug) running on jr_zenbook:8069 
+2024-05-12 15:28:33,975 17800 INFO ? odoo.http: HTTP Configuring static files 
+2024-05-12 15:28:34,069 17800 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2024-05-12 15:28:34,071 17800 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2024-05-12 15:28:34,084 17800 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:28:34,084 17800 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:28:34,118 17800 INFO odoo_db odoo.modules.loading: loading 44 modules... 
+2024-05-12 15:28:34,134 17800 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:28:34,159 17800 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:28:35,217 17800 INFO odoo_db odoo.modules.loading: 44 modules loaded in 1.10s, 0 queries (+0 extra) 
+2024-05-12 15:28:35,321 17800 WARNING odoo_db odoo.fields: Field gestion.alumnos.inscripcion.alumno_id with unknown comodel_name 'gestion_alumnos.alumno' 
+2024-05-12 15:28:35,321 17800 WARNING odoo_db odoo.fields: Field gestion.alumnos.inscripcion.programa_id with unknown comodel_name 'gestion_alumnos.programa' 
+2024-05-12 15:28:35,430 17800 INFO odoo_db odoo.modules.loading: Modules loaded. 
+2024-05-12 15:28:35,430 17800 INFO odoo_db odoo.modules.registry: Registry loaded in 1.441s 
+2024-05-12 15:28:35,430 17800 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-05-12 15:28:35,718 17800 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:28:35] "POST /longpolling/im_status HTTP/1.1" 200 - 33 0.099 1.631
+2024-05-12 15:28:58,242 17800 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-05-12 15:29:26,406 17800 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:29:26] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.002
+2024-05-12 15:29:33,575 17800 INFO odoo_db odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-05-12 15:29:33,592 17800 INFO odoo_db odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-05-12 15:29:48,246 17800 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:29:48] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.009 50.156
+2024-05-12 15:29:53,818 17800 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-12 15:29:53,818 17800 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-12 15:29:53,892 17800 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:29:53] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.017 5.302
+2024-05-12 15:29:54,904 17800 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 6 connections  
+2024-05-12 15:29:59,351 17764 INFO ? odoo: Odoo version 15.0-20240509 
+2024-05-12 15:29:59,351 17764 INFO ? odoo: Using configuration file at C:\Users\juanj\Documents\Juan\Aden\odoo15\server\odoo.conf 
+2024-05-12 15:29:59,351 17764 INFO ? odoo: addons paths: ['C:\\Users\\juanj\\Documents\\Juan\\Aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\odoo\\addons', 'c:\\users\\juanj\\documents\\juan\\aden\\odoo15\\server\\custom_addons'] 
+2024-05-12 15:29:59,351 17764 INFO ? odoo: database: admin@localhost:5432 
+2024-05-12 15:29:59,634 17764 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\juanj\Documents\Juan\Aden\odoo15\thirdparty\wkhtmltopdf.exe 
+2024-05-12 15:30:00,043 17764 INFO ? odoo.service.server: HTTP service (werkzeug) running on jr_zenbook:8069 
+2024-05-12 15:30:01,920 17764 INFO ? odoo.http: HTTP Configuring static files 
+2024-05-12 15:30:02,004 17764 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2024-05-12 15:30:02,020 17764 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2024-05-12 15:30:02,025 17764 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:30:02,025 17764 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:30:02,070 17764 INFO odoo_db odoo.modules.loading: loading 44 modules... 
+2024-05-12 15:30:02,082 17764 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:30:02,107 17764 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:30:03,118 17764 INFO odoo_db odoo.modules.loading: 44 modules loaded in 1.05s, 0 queries (+0 extra) 
+2024-05-12 15:30:03,222 17764 WARNING odoo_db odoo.fields: Field gestion.inscripcion.alumno_id with unknown comodel_name 'gestion_alumnos.alumno' 
+2024-05-12 15:30:03,222 17764 WARNING odoo_db odoo.fields: Field gestion.inscripcion.programa_id with unknown comodel_name 'gestion_alumnos.programa' 
+2024-05-12 15:30:03,320 17764 INFO odoo_db odoo.modules.loading: Modules loaded. 
+2024-05-12 15:30:03,326 17764 INFO odoo_db odoo.modules.registry: Registry loaded in 1.391s 
+2024-05-12 15:30:03,335 17764 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-05-12 15:30:03,816 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:30:03] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 92 0.147 1.739
+2024-05-12 15:30:03,870 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:30:03] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.011 0.033
+2024-05-12 15:30:04,188 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:30:04] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.006 0.002
+2024-05-12 15:30:08,879 17764 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Gestion de Alumnos'] to user admin@admin.com #2 via 127.0.0.1 
+2024-05-12 15:30:08,883 17764 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Gestion de Alumnos'] to user admin@admin.com #2 via 127.0.0.1 
+2024-05-12 15:30:08,883 17764 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Gestion de Alumnos'] to user admin@admin.com #2 via 127.0.0.1 
+2024-05-12 15:30:09,344 17764 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:30:10,013 17764 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:30:10,374 17764 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:30:10,374 17764 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:30:10,374 17764 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:30:10,374 17764 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user admin@admin.com #2 via 127.0.0.1 
+2024-05-12 15:30:10,477 17764 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2024-05-12 15:30:10,494 17764 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2024-05-12 15:30:10,518 17764 INFO odoo_db odoo.modules.loading: updating modules list 
+2024-05-12 15:30:10,534 17764 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2024-05-12 15:30:11,007 17764 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:30:11,688 17764 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:30:12,080 17764 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'estate_module', defaulting to LGPL-3 
+2024-05-12 15:30:12,117 17764 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'gestion_alumnos', defaulting to LGPL-3 
+2024-05-12 15:30:12,117 17764 INFO odoo_db odoo.modules.loading: loading 44 modules... 
+2024-05-12 15:30:12,117 17764 INFO odoo_db odoo.modules.loading: Loading module gestion_alumnos (4/44) 
+2024-05-12 15:30:12,176 17764 INFO odoo_db odoo.modules.registry: module gestion_alumnos: creating or updating database tables 
+2024-05-12 15:30:12,462 17764 WARNING odoo_db odoo.modules.loading: The models ['gestion.alumno', 'gestion.programa', 'gestion.inscripcion'] have no access rules in module gestion_alumnos, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+gestion_alumnos.access_gestion_alumno,access_gestion_alumno,gestion_alumnos.model_gestion_alumno,base.group_user,1,0,0,0
+gestion_alumnos.access_gestion_programa,access_gestion_programa,gestion_alumnos.model_gestion_programa,base.group_user,1,0,0,0
+gestion_alumnos.access_gestion_inscripcion,access_gestion_inscripcion,gestion_alumnos.model_gestion_inscripcion,base.group_user,1,0,0,0 
+2024-05-12 15:30:12,468 17764 INFO odoo_db odoo.modules.loading: Module gestion_alumnos loaded in 0.35s, 72 queries 
+2024-05-12 15:30:12,505 17764 INFO odoo_db odoo.modules.loading: 44 modules loaded in 0.39s, 72 queries (+0 extra) 
+2024-05-12 15:30:12,942 17764 INFO odoo_db odoo.modules.registry: verifying fields for every extended model 
+2024-05-12 15:30:13,493 17764 INFO odoo_db odoo.modules.loading: Modules loaded. 
+2024-05-12 15:30:13,504 17764 INFO odoo_db odoo.modules.registry: Registry loaded in 3.086s 
+2024-05-12 15:30:13,504 17764 INFO odoo_db odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2024-05-12 15:30:13,511 17764 INFO odoo_db odoo.modules.registry: Registry changed, signaling through the database 
+2024-05-12 15:30:13,513 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:30:13] "POST /web/dataset/call_button HTTP/1.1" 200 - 2947 1.614 3.030
+2024-05-12 15:30:13,837 17764 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-05-12 15:30:15,269 17764 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-05-12 15:30:15,318 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:30:15] "GET /web HTTP/1.1" 200 - 326 0.178 1.303
+2024-05-12 15:30:15,343 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:30:15] "GET /web/webclient/load_menus/dfad4e779bcf96ec32af83bad34954002d22e45e7dac3c22412dcef93e1821b2 HTTP/1.1" 200 - 1 0.002 0.004
+2024-05-12 15:30:16,244 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:30:16] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 4 0.038 0.135
+2024-05-12 15:30:16,246 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:30:16] "POST /mail/init_messaging HTTP/1.1" 200 - 67 0.099 0.151
+2024-05-12 15:30:16,279 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:30:16] "POST /web/action/load HTTP/1.1" 200 - 8 0.024 0.180
+2024-05-12 15:30:16,300 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:30:16] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 16 0.028 0.186
+2024-05-12 15:30:16,318 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:30:16] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.031 0.013
+2024-05-12 15:30:16,606 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:30:16] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.021 0.002
+2024-05-12 15:30:16,615 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:30:16] "POST /mail/inbox/messages HTTP/1.1" 200 - 9 0.016 0.001
+2024-05-12 15:30:16,675 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:30:16] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 7 0.017 0.013
+2024-05-12 15:30:17,701 17764 INFO ? werkzeug: 127.0.0.1 - - [12/May/2024 15:30:17] "GET /web_tour/static/src/xml/tip.xml?debug=1715527817382 HTTP/1.1" 200 - - - -
+2024-05-12 15:30:19,460 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:30:19] "POST /web/action/load HTTP/1.1" 200 - 28 0.071 0.023
+2024-05-12 15:30:19,916 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:30:19] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 57 0.110 0.038
+2024-05-12 15:30:20,279 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:30:20] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.026 0.018
+2024-05-12 15:30:20,601 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:30:20] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.001 0.006
+2024-05-12 15:30:21,025 17764 INFO ? werkzeug: 127.0.0.1 - - [12/May/2024 15:30:21] "GET /base/static/description/icon.png HTTP/1.1" 304 - - - -
+2024-05-12 15:31:05,287 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:31:05] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.034 50.034
+2024-05-12 15:31:06,306 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:31:06] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.043 50.188
+2024-05-12 15:31:06,661 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:31:06] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.006 0.010
+2024-05-12 15:31:28,302 17764 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-12 15:31:28,302 17764 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-12 15:31:28,726 17764 INFO odoo_db werkzeug: 127.0.0.1 - - [12/May/2024 15:31:28] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.018 22.065
+2024-05-12 15:31:29,346 17764 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 8 connections  
