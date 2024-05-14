@@ -31,7 +31,6 @@ class Alumno(models.Model):
         ('PER', 'Perú'),
         ('RDO', 'República Dominicana'),
     ])
-    #, , Peru, , Par, , , , rep dom, , , 
 
     # funcion para validar que el telefono solo sean digitos
     @api.constrains('telefono')
