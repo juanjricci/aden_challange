@@ -50,3 +50,4 @@ class Tracking(http.Controller):
         # Devolver respuesta JSON
         return json.dumps(data)
     
+    
