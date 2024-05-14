@@ -35,8 +35,15 @@ class Tracking(http.Controller):
         data = []
         for programa in programas:
             data.append({
-                'id': programa.id,
-                'alumno_id': programa.alumno_id.id,
+                'id': programa.alumno_id.id,
+                'nombre': programa.alumno_id.nombre,
+                'apellido': programa.alumno_id.apellido,
+                'fecha_de_nacimiento': str(programa.alumno_id.fecha_de_nacimiento),
+                'legajo': programa.alumno_id.legajo,
+                'email': programa.alumno_id.email,
+                'telefono': programa.alumno_id.telefono,
+                'direccion': programa.alumno_id.direccion,
+                'pais': programa.alumno_id.pais,
                 'programa_id': programa.programa_id.id,
             })
 
