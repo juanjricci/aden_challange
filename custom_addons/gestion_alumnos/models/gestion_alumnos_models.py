@@ -49,6 +49,17 @@ class Alumno(models.Model):
         for record in self:
             if record.email and not re.match(r'^[a-zA-Z0-9._-]+@[a-zA-Z0-9.]+\.[a-zA-Z]{2,}$', record.email):
                 raise ValidationError("Formato de email inválido.")
+            
+    # Cambio el display del objeto de Alumno
+    def name_get(self):
+        result = []
+        for record in self:
+            nombre = record.nombre
+            apellido = record.apellido
+            legajo = record.legajo
+            desc = f"{apellido}, {nombre} - {str(legajo)}"
+            result.append((record.id, desc))
+        return result
 
 # Modelo Programa
 class Programa(models.Model):
@@ -57,6 +68,14 @@ class Programa(models.Model):
 
     nombre = fields.Char("Nombre", required=True)
     descripcion = fields.Char("Descripcion", required=True)
+
+    # Cambio el display del objeto de Programa
+    def name_get(self):
+        result = []
+        for record in self:
+            nombre = record.nombre
+            result.append((record.id, nombre))
+        return result
 
 # Modelo Inscripción
 class Inscripcion(models.Model):
