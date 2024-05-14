@@ -42,6 +42,13 @@ class Alumno(models.Model):
         for record in self:
             if record.telefono and not re.match(r'^\+?\d+$', record.telefono):
                 raise ValidationError("El telefono debe contener solo digitos.")
+            
+    # funcion para validar que el email sea de un formato válido
+    @api.constrains('email')
+    def _check_email(self):
+        for record in self:
+            if record.email and not re.match(r'^[a-zA-Z0-9._-]+@[a-zA-Z0-9.]+\.[a-zA-Z]{2,}$', record.email):
+                raise ValidationError("Formato de email inválido.")
 
 # Modelo Programa
 class Programa(models.Model):
