@@ -10,11 +10,28 @@ class Alumno(models.Model):
     nombre = fields.Char("Nombre", required=True)
     apellido = fields.Char("Apellido", required=True)
     fecha_de_nacimiento = fields.Date("Fecha de Nacimiento", required=True)
-    legajo = fields.Integer("N° de Legajo")
+    legajo = fields.Integer("N° de Legajo", required=True)
     email = fields.Char("Email")
     telefono = fields.Char("Telefono")
     direccion = fields.Char("Direccion")
-    pais = fields.Char("Pais")
+    # pais = fields.Char("Pais")
+    pais = fields.Selection([
+        ('ARG', 'Argentina'),
+        ('BOL', 'Bolivia'),
+        ('COL', 'Colombia'),
+        ('CRI', 'Costa Rica'),
+        ('ECU', 'Ecuador'),
+        ('SLV', 'El Salvador'),
+        ('USA', 'Estados Unidos'),
+        ('GUA', 'Guatemala'),
+        ('HON', 'Honduras'),
+        ('MEX', 'México'),
+        ('PAN', 'Panamá'),
+        ('PAR', 'Paraguay'),
+        ('PER', 'Perú'),
+        ('RDO', 'República Dominicana'),
+    ])
+    #, , Peru, , Par, , , , rep dom, , , 
 
     # funcion para validar que el telefono solo sean digitos
     @api.constrains('telefono')
