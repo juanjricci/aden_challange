@@ -11,6 +11,10 @@ class Alumno(models.Model):
     apellido = fields.Char("Apellido", required=True)
     fecha_de_nacimiento = fields.Date("Fecha de Nacimiento", required=True)
     legajo = fields.Integer("N° de Legajo", required=True)
+    # defino un sql constraint para validar que el legajo sea unico
+    _sql_constraints = [
+        ('unique_legajo', 'unique(legajo)', 'El número de legajo ingresado ya existe')
+    ]
     email = fields.Char("Email")
     telefono = fields.Char("Telefono")
     direccion = fields.Char("Direccion")
