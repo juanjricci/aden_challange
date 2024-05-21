@@ -7,7 +7,7 @@
             <field name="model">gestion.alumnos.programa</field>
             <field name="arch" type="xml">
                 <tree string="">
-                    <field name="nombre" />
+                    <field name="name" />
                     <field name="descripcion" />
                 </tree>
             </field>

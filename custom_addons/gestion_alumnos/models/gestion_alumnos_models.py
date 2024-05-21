@@ -19,22 +19,23 @@ class Alumno(models.Model):
     telefono = fields.Char("Telefono")
     direccion = fields.Char("Direccion")
     # pais = fields.Char("Pais")
-    pais = fields.Selection([
-        ('ARG', 'Argentina'),
-        ('BOL', 'Bolivia'),
-        ('COL', 'Colombia'),
-        ('CRI', 'Costa Rica'),
-        ('ECU', 'Ecuador'),
-        ('SLV', 'El Salvador'),
-        ('USA', 'Estados Unidos'),
-        ('GUA', 'Guatemala'),
-        ('HON', 'Honduras'),
-        ('MEX', 'México'),
-        ('PAN', 'Panamá'),
-        ('PAR', 'Paraguay'),
-        ('PER', 'Perú'),
-        ('RDO', 'República Dominicana'),
-    ], 'País', default='ARG')
+    pais = fields.Many2one('res.country', "Pais")
+    # pais = fields.Selection([
+        # ('ARG', 'Argentina'),
+        # ('BOL', 'Bolivia'),
+        # ('COL', 'Colombia'),
+        # ('CRI', 'Costa Rica'),
+        # ('ECU', 'Ecuador'),
+        # ('SLV', 'El Salvador'),
+        # ('USA', 'Estados Unidos'),
+        # ('GUA', 'Guatemala'),
+        # ('HON', 'Honduras'),
+        # ('MEX', 'México'),
+        # ('PAN', 'Panamá'),
+        # ('PAR', 'Paraguay'),
+        # ('PER', 'Perú'),
+        # ('RDO', 'República Dominicana'),
+    # ], 'País', default='ARG')
 
     # funcion para validar que el telefono solo sean digitos
     @api.constrains('telefono')
@@ -61,27 +62,3 @@ class Alumno(models.Model):
             result.append((record.id, desc))
         return result
 
-# Modelo Programa
-class Programa(models.Model):
-    _name = "gestion.alumnos.programa"
-    _description = "programa model"
-
-    nombre = fields.Char("Nombre", required=True)
-    descripcion = fields.Char("Descripcion", required=True)
-
-    # Cambio el display del objeto de Programa
-    def name_get(self):
-        result = []
-        for record in self:
-            nombre = record.nombre
-            result.append((record.id, nombre))
-        return result
-
-# Modelo Inscripción
-class Inscripcion(models.Model):
-    _name = 'gestion.alumnos.inscripcion'
-    _description = 'inscripcion model'
-
-    alumno_id = fields.Many2one('gestion.alumnos.alumno', "Alumno", required=True)
-    programa_id = fields.Many2one('gestion.alumnos.programa', "Programa", required=True)
-    fecha_inscripcion = fields.Date("Fecha de inscripcion", default=fields.Date.today)

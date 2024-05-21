@@ -28,7 +28,9 @@ class Tracking(http.Controller):
     def get_programas(self, programa_id):
         # Obtener registros del modelo 'gestion.alumnos.programa'
         programas = http.request.env['gestion.alumnos.inscripcion'].search([
-            ('programa_id', '=', programa_id)
+            # '|',
+            ('programa_id', '=', programa_id),
+            # ('fecha_de_inscripcion', '>=', '2023-01-01')
         ])
 
         # Convertir registros a formato JSON
@@ -43,7 +45,10 @@ class Tracking(http.Controller):
                 'email': programa.alumno_id.email,
                 'telefono': programa.alumno_id.telefono,
                 'direccion': programa.alumno_id.direccion,
-                'pais': programa.alumno_id.pais,
+                'pais': {
+                    'id': programa.alumno_id.pais.id,
+                    'name': programa.alumno_id.pais.name
+                    },
                 'programa_id': programa.programa_id.id,
             })
 

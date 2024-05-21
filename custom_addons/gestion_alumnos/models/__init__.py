@@ -1,1 +1,1 @@
-from . import gestion_alumnos_models
+from . import gestion_alumnos_models, programa_model, inscripcion_model
